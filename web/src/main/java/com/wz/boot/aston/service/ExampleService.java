@@ -6,5 +6,7 @@ package com.wz.boot.aston.service;
  */
 public interface ExampleService {
 
-    String BEAN_NAME="exampleService";
+    String BEAN_NAME = "exampleService";
+
+    long unixTimeStamp();
 }

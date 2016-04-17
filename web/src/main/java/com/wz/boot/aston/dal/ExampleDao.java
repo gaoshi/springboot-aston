@@ -5,5 +5,5 @@ package com.wz.boot.aston.dal;
  * @since 1.0
  */
 public interface ExampleDao {
-    int unixTimeStampFromDual();
+    long unixTimeStampFromDual();
 }

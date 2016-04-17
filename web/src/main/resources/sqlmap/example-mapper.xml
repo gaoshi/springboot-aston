@@ -3,7 +3,7 @@
 
 <mapper namespace="com.wz.boot.aston.dal.ExampleDao">
     <!-- tes dal,test sql -->
-    <select id="unixTimeStampFromDual" resultType="int">
+    <select id="unixTimeStampFromDual" resultType="long">
         SELECT unix_timestamp(now()) FROM DUAL WHERE 1=1 LIMIT 1
     </select>
 </mapper>

@@ -41,5 +41,9 @@ public class BaseEntity implements Serializable {
     @Getter
     protected int isDeleted;
 
+    @Setter
+    @Getter
+    protected String extra;
+
 
 }

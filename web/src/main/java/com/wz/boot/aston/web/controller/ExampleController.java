@@ -16,4 +16,14 @@ public class ExampleController {
     public Object json() {
         return "Success";
     }
+
+    @RequestMapping("/status")
+    public String status() {
+        return "/aston/status";
+    }
+
+    @RequestMapping("/dashboard")
+    public String dashboard() {
+        return "/dashboard";
+    }
 }

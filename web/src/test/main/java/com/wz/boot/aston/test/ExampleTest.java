@@ -2,6 +2,7 @@ package main.java.com.wz.boot.aston.test;
 
 import com.wz.boot.aston.Application;
 import com.wz.boot.aston.service.ExampleService;
+import com.wz.boot.aston.service.impl.ExampleServiceImpl;
 import com.wz.boot.aston.utils.TimeUtil;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
@@ -16,7 +17,9 @@ import javax.annotation.Resource;
  * @since 1.0
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {Application.class}, webEnvironment = SpringBootTest.WebEnvironment.NONE)
+@SpringBootTest(
+        classes = {Application.class},
+        webEnvironment = SpringBootTest.WebEnvironment.NONE)
 public class ExampleTest {
 
     @Resource

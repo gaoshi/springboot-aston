@@ -15,3 +15,6 @@
 	Tunnelblick		:vpn
 	Lantern			:vpn
 	Charles			:web debugging proxy
+	
+####
+	bower,npm,tree,git

@@ -21,7 +21,7 @@
     <!-- info log file name -->
     <property name="INFO_NAME" value="aston_info"/>
 
-    <property name="CATALINA_APPLOG" value="logs"/>
+    <property name="CATALINA_APPLOG" value="./logs"/>
 
     <appender name="STDOUT_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${CATALINA_APPLOG}/${STDOUT_NAME}.log</file>

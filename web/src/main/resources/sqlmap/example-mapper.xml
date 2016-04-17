@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mogujie.marketing.bigsale.dal.ExampleDao">
+    <!-- tes dal,test sql -->
+    <select id="unixTimeStampFromDual" resultType="int">
+        SELECT unix_timestamp(now()) FROM DUAL WHERE 1=1 LIMIT 1
+    </select>
+</mapper>

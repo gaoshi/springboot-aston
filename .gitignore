@@ -1,0 +1,61 @@
+# idea specific git ignore
+*.war
+*.ear
+*.class
+.idea/**/*
+.idea/*
+/**/*.iml
+target/
+data/
+*.data
+/**/*.data
+/**/*.dat
+discoverclient/
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# maven ignore
+*.jar
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.metadata/
+.springBeans
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+logs/
+CATALINA_APPLOG_IS_UNDEFINED/
+*.log
+*.cache
+*.diff
+*.patch
+# system ignore
+.DS_Store
+Thumbs.db
+
+# External tools builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch

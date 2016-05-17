@@ -1,0 +1,21 @@
+<!-- jQuery  -->
+<script src="${rc.contextPath}/assets/js/jquery.min.js"></script>
+<script src="${rc.contextPath}/assets/js/bootstrap.min.js"></script>
+<script src="${rc.contextPath}/assets/js/detect.js"></script>
+<script src="${rc.contextPath}/assets/js/fastclick.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.slimscroll.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.blockUI.js"></script>
+<script src="${rc.contextPath}/assets/js/waves.js"></script>
+<script src="${rc.contextPath}/assets/js/wow.min.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.nicescroll.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.scrollTo.min.js"></script>
+<script src="${rc.contextPath}/assets/plugins/peity/jquery.peity.min.js"></script>
+<script src="${rc.contextPath}/assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+<script src="${rc.contextPath}/assets/pages/jquery.dashboard_3.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.core.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.app.js"></script>
+<script>
+    var resizefunc = [];
+</script>
+</body>
+</html>

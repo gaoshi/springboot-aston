@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minicooper,Marketing">
+    <meta name="author" content="YaXiang">
+
+    <link rel="shortcut icon"
+          href="http://s16.mogucdn.com/new1/v1/bmisc/3ce382db3c8aaca5d07bd36711e77134/171169993508.ico"
+          type="image/x-icon"/>
+
+    <title>Minicooper</title>
+
+    <link href="${rc.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/core.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/components.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/icons.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/pages.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    <script src="${rc.contextPath}/${rc.contextPath}/assets/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body class="fixed-left">
+<!-- Begin page -->
+<div id="wrapper">
+
+    <!-- Nav Bar Start -->
+    <div class="topbar">
+
+        <!-- LOGO -->
+        <div class="topbar-left">
+            <div class="text-center">
+                <a href="${rc.contextPath}/#" class="logo"><i class="icon-magnet icon-c-logo"></i>
+                    <span>Minicooper</span></a>
+            </div>
+        </div>
+
+        <!-- Button mobile view to collapse sidebar menu -->
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="">
+                    <div class="pull-left">
+                        <button class="button-menu-mobile open-left">
+                            <i class="ion-navicon"></i>
+                        </button>
+                        <span class="clearfix"></span>
+                    </div>
+
+                    <form role="search" class="navbar-left app-search pull-left hidden-xs">
+                        <input type="text" placeholder="Search..." class="form-control">
+                        <a href=""><i class="fa fa-search"></i></a>
+                    </form>
+
+
+                    <ul class="nav navbar-nav navbar-right pull-right">
+                        <li class="dropdown hidden-xs">
+                            <a href="${rc.contextPath}/#" data-target="#"
+                               class="dropdown-toggle waves-effect waves-light"
+                               data-toggle="dropdown" aria-expanded="true">
+                                <i class="icon-bell"></i> <span class="badge badge-xs badge-danger">3</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-lg">
+                                <li class="notifi-title"><span class="label label-default pull-right">New 3</span>系统通知
+                                </li>
+                                <li class="list-group nicescroll notification-list">
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-diamond fa-2x text-primary"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>通知的内容</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-cog fa-2x text-custom"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>通知的内容</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-bell-o fa-2x text-danger"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>There are <span class="text-primary font-600">2</span>通知的内容
+                                                    </small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-user-plus fa-2x text-info"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>通知的内容</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-diamond fa-2x text-primary"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>通知的内容</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-cog fa-2x text-custom"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">通知一标题</h5>
+                                                <p class="m-0">
+                                                    <small>通知的内容</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="list-group-item text-right">
+                                        <small class="font-600">查看所有通知</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="${rc.contextPath}/#" id="btn-fullscreen" class="waves-effect waves-light">
+                                <i class="icon-size-fullscreen"></i></a>
+                        </li>
+                        <li class="hidden-xs">
+                            <a href="${rc.contextPath}/#" class="right-bar-toggle waves-effect waves-light">
+                                <i class="icon-settings"></i></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true">
+                                <img src="${rc.contextPath}/assets/images/users/avatar-1.jpg" alt="user-img"
+                                     class="img-circle"> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)"><i class="ti-user m-r-5"></i>简介</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-settings m-r-5"></i> 设置</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-lock m-r-5"></i>锁屏</a></li>
+                                <li><a href="javascript:void(0)"><i class="ti-power-off m-r-5"></i>退出</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+
+    <!-- ========== Left Sidebar Start ========== -->
+
+    <div class="left side-menu">
+        <div class="sidebar-inner slimscrollleft">
+            <!--- Divider -->
+            <div id="sidebar-menu">
+                <ul>
+
+                    <li class="text-muted menu-title">选品后台</li>
+
+                    <li class="has_sub">
+                        <a href="${rc.contextPath}/#" class="waves-effect active">
+                            <i class="ti-home"></i><span>系统首页</span>
+                        </a>
+                    </li>
+
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-paint-bucket"></i>
+                            <span class="label label-info pull-right">3</span><span>规则管理</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">规则列表</a></li>
+                            <li><a href="${rc.contextPath}/#">新增规则</a></li>
+                            <li><a href="${rc.contextPath}/#">规则校验</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-light-bulb"></i>
+                            <span>指标管理</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">指标列表</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-spray"></i>
+                            <span>模型管理</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">模型列表</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-pencil-alt"></i>
+                            <span>数据字典</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">字典管理</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="text-muted menu-title">系统管理</li>
+
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-files"></i>
+                            <span class="label label-info pull-right">2</span><span>系统日志</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">操作日志</a></li>
+                            <li><a href="${rc.contextPath}/#">执行日志</a></li>
+                        </ul>
+                    </li>
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect">
+                            <i class="ti-crown"></i>
+                            <span class="label label-info pull-right">2</span><span>选品统计</span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a href="${rc.contextPath}/#">选品记录</a></li>
+                            <li><a href="${rc.contextPath}/#">选品统计</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- Left Sidebar End -->
+
+
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+            <div class="container">
+
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">选品系统首页</h4>
+                        <p class="text-muted page-title-alt">欢迎</p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <div class="bar-widget">
+                                <div class="table-box">
+                                    <div class="table-detail">
+                                        <div class="iconbox bg-info">
+                                            <i class="icon-layers"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-detail">
+                                        <h4 class="m-t-0 m-b-5"><b>12560</b></h4>
+                                        <p class="text-muted m-b-0 m-t-0">Total Revenue</p>
+                                    </div>
+                                    <div class="table-detail text-right">
+                                        <span data-plugin="peity-bar" data-colors="#34d3eb,#ebeff2" data-width="120"
+                                              data-height="45">5,3,9,6,5,9,7,3,5,2,9,7,2,1</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <div class="bar-widget">
+                                <div class="table-box">
+                                    <div class="table-detail">
+                                        <div class="iconbox bg-custom">
+                                            <i class="icon-layers"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-detail">
+                                        <h4 class="m-t-0 m-b-5"><b>356</b></h4>
+                                        <p class="text-muted m-b-0 m-t-0">Ave. weekly Sales</p>
+                                    </div>
+                                    <div class="table-detail text-right">
+                                        <span data-plugin="peity-pie" data-colors="#7e57c2,#ebeff2" data-width="50"
+                                              data-height="45">1/5</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <div class="bar-widget">
+                                <div class="table-box">
+                                    <div class="table-detail">
+                                        <div class="iconbox bg-info">
+                                            <i class="icon-layers"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-detail">
+                                        <h4 class="m-t-0 m-b-5"><b>96562</b></h4>
+                                        <p class="text-muted m-b-0 m-t-0">Visiters</p>
+                                    </div>
+                                    <div class="table-detail text-right">
+                                        <span data-plugin="peity-donut" data-colors="#34d3eb,#ebeff2" data-width="50"
+                                              data-height="45">1/5</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <h4 class="text-dark header-title m-t-0 m-b-30">Daily Sales</h4>
+
+                            <div class="widget-chart text-center">
+                                <div id="sparkline3"></div>
+                                <ul class="list-inline m-t-15">
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Target</h5>
+                                        <h4 class="m-b-0">$1000</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last week</h5>
+                                        <h4 class="m-b-0">$523</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last Month</h5>
+                                        <h4 class="m-b-0">$965</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <h4 class="text-dark  header-title m-t-0 m-b-30">Weekly Sales</h4>
+
+                            <div class="widget-chart text-center">
+                                <div id="sparkline2"></div>
+                                <ul class="list-inline m-t-15">
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Target</h5>
+                                        <h4 class="m-b-0">$1000</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last week</h5>
+                                        <h4 class="m-b-0">$523</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last Month</h5>
+                                        <h4 class="m-b-0">$965</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <h4 class="text-dark  header-title m-t-0 m-b-30">Monthly Sales</h4>
+
+                            <div class="widget-chart text-center">
+                                <div id="sparkline1"></div>
+                                <ul class="list-inline m-t-15">
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Target</h5>
+                                        <h4 class="m-b-0">$1000</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last week</h5>
+                                        <h4 class="m-b-0">$523</h4>
+                                    </li>
+                                    <li>
+                                        <h5 class="text-muted m-t-20">Last Month</h5>
+                                        <h4 class="m-b-0">$965</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- end row -->
+
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <div class="portlet"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark text-uppercase">
+                                    Projects
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1"
+                                       href="${rc.contextPath}/#portlet2"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="${rc.contextPath}/#" data-toggle="remove"><i
+                                            class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet2" class="panel-collapse collapse in">
+                                <div class="portlet-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Project Name</th>
+                                                <th>Start Date</th>
+                                                <th>Due Date</th>
+                                                <th>Status</th>
+                                                <th>Assign</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Ubold Admin v1</td>
+                                                <td>01/01/2015</td>
+                                                <td>26/04/2015</td>
+                                                <td><span class="label label-info">Released</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Ubold Frontend v1</td>
+                                                <td>01/01/2015</td>
+                                                <td>26/04/2015</td>
+                                                <td><span class="label label-success">Released</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Ubold Admin v1.1</td>
+                                                <td>01/05/2015</td>
+                                                <td>10/05/2015</td>
+                                                <td><span class="label label-pink">Pending</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Ubold Frontend v1.1</td>
+                                                <td>01/01/2015</td>
+                                                <td>31/05/2015</td>
+                                                <td><span class="label label-purple">Work in Progress</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Ubold Admin v1.3</td>
+                                                <td>01/01/2015</td>
+                                                <td>31/05/2015</td>
+                                                <td><span class="label label-warning">Coming soon</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>6</td>
+                                                <td>Ubold Admin v1.3</td>
+                                                <td>01/01/2015</td>
+                                                <td>31/05/2015</td>
+                                                <td><span class="label label-primary">Coming soon</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>7</td>
+                                                <td>Ubold Admin v1.3</td>
+                                                <td>01/01/2015</td>
+                                                <td>31/05/2015</td>
+                                                <td><span class="label label-info">Cool</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>8</td>
+                                                <td>Ubold Admin v1.3</td>
+                                                <td>01/01/2015</td>
+                                                <td>31/05/2015</td>
+                                                <td><span class="label label-warning">Coming soon</span></td>
+                                                <td>Coderthemes</td>
+                                            </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end col -->
+
+
+                </div>
+
+                <!-- end row -->
+
+
+            </div> <!-- container -->
+
+        </div> <!-- content -->
+
+        <footer class="footer text-right">
+            2016 © Mogu
+        </footer>
+
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Right content here -->
+    <!-- ============================================================== -->
+
+
+    <!-- Right Sidebar -->
+    <div class="side-bar right-bar nicescroll">
+        <h4 class="text-center">任务列表</h4>
+        <div class="contact-list nicescroll">
+            <ul class="list-group contacts-list">
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-1.jpg" alt="">
+                        </div>
+                        <span class="name">Task-1</span>
+                        <i class="fa fa-circle online"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-2.jpg" alt="">
+                        </div>
+                        <span class="name">Task-2</span>
+                        <i class="fa fa-circle online"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-3.jpg" alt="">
+                        </div>
+                        <span class="name">Task-3</span>
+                        <i class="fa fa-circle online"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-4.jpg" alt="">
+                        </div>
+                        <span class="name">Task-4</span>
+                        <i class="fa fa-circle online"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-5.jpg" alt="">
+                        </div>
+                        <span class="name">Task-5</span>
+                        <i class="fa fa-circle away"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-6.jpg" alt="">
+                        </div>
+                        <span class="name">Task-6</span>
+                        <i class="fa fa-circle away"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-7.jpg" alt="">
+                        </div>
+                        <span class="name">Task-7</span>
+                        <i class="fa fa-circle away"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-8.jpg" alt="">
+                        </div>
+                        <span class="name">Task-8</span>
+                        <i class="fa fa-circle offline"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-9.jpg" alt="">
+                        </div>
+                        <span class="name">Task-9</span>
+                        <i class="fa fa-circle offline"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+                <li class="list-group-item">
+                    <a href="${rc.contextPath}/#">
+                        <div class="avatar">
+                            <img src="assets/images/users/avatar-10.jpg" alt="">
+                        </div>
+                        <span class="name">Task-10</span>
+                        <i class="fa fa-circle offline"></i>
+                    </a>
+                    <span class="clearfix"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /Right-bar -->
+
+</div>
+<!-- END wrapper -->
+
+
+<script>
+    var resizefunc = [];
+</script>
+
+<!-- jQuery  -->
+<script src="${rc.contextPath}/assets/js/jquery.min.js"></script>
+<script src="${rc.contextPath}/assets/js/bootstrap.min.js"></script>
+<script src="${rc.contextPath}/assets/js/detect.js"></script>
+<script src="${rc.contextPath}/assets/js/fastclick.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.slimscroll.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.blockUI.js"></script>
+<script src="${rc.contextPath}/assets/js/waves.js"></script>
+<script src="${rc.contextPath}/assets/js/wow.min.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.nicescroll.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.scrollTo.min.js"></script>
+<script src="${rc.contextPath}/assets/plugins/peity/jquery.peity.min.js"></script>
+<script src="${rc.contextPath}/assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+<script src="${rc.contextPath}/assets/pages/jquery.dashboard_3.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.core.js"></script>
+<script src="${rc.contextPath}/assets/js/jquery.app.js"></script>
+</body>
+</html>

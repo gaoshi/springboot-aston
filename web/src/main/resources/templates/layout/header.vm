@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minicooper,Marketing">
+    <meta name="author" content="YaXiang">
+
+    <link rel="shortcut icon" href="http://s16.mogucdn.com/new1/v1/bmisc/3ce382db3c8aaca5d07bd36711e77134/171169993508.ico" type="image/x-icon"/>
+
+    <title>Minicooper</title>
+
+    <link href="${rc.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/core.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/components.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/icons.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/pages.css" rel="stylesheet" type="text/css"/>
+    <link href="${rc.contextPath}/assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    <script src="${rc.contextPath}/assets/js/modernizr.min.js"></script>
+</head>
+<body class="fixed-left">

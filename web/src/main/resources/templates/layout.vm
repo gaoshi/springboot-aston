@@ -1,0 +1,11 @@
+#parse("layout/header.vm");
+<div id="wrapper">
+    #parse("layout/topbar.vm");
+    #parse("layout/sidebar.vm");
+    <div class="content-page">
+        $screen_content
+        #parse("layout/leg.vm");
+    </div>
+    #parse("layout/notify.vm")
+</div>
+#parse("layout/footer.vm");

@@ -1,4 +1,4 @@
-package com.wz.boot.aston.view.velocity;
+package com.wz.boot.aston.autoconfigure;
 
 import org.springframework.boot.web.servlet.view.velocity.EmbeddedVelocityToolboxView;
 import org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver;

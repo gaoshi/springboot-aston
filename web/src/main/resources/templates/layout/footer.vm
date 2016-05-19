@@ -1,6 +1,4 @@
-<!-- jQuery  -->
-<script src="${rc.contextPath}/assets/js/jquery.min.js"></script>
-<script src="${rc.contextPath}/assets/js/bootstrap.min.js"></script>
+
 <script src="${rc.contextPath}/assets/js/detect.js"></script>
 <script src="${rc.contextPath}/assets/js/fastclick.js"></script>
 <script src="${rc.contextPath}/assets/js/jquery.slimscroll.js"></script>

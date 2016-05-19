@@ -1,6 +1,5 @@
 package com.wz.boot.aston.autoconfigure;
 
-import com.wz.boot.aston.view.velocity.EmbeddedVelocityLayoutViewResolver;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.velocity.app.VelocityEngine;
@@ -110,8 +109,8 @@ public class MoGuVelocityAutoConfiguration {
         @Bean
         @ConditionalOnMissingBean(name = "velocityViewResolver")
         @ConditionalOnProperty(name = "mogu.spring.velocity.enabled", matchIfMissing = true)
-        public EmbeddedVelocityLayoutViewResolver velocityViewResolver() {
-            EmbeddedVelocityLayoutViewResolver resolver = new EmbeddedVelocityLayoutViewResolver();
+        public MoGuEmbeddedVelocityLayoutViewResolver velocityViewResolver() {
+            MoGuEmbeddedVelocityLayoutViewResolver resolver = new MoGuEmbeddedVelocityLayoutViewResolver();
             this.properties.applyToViewResolver(resolver);
             return resolver;
         }

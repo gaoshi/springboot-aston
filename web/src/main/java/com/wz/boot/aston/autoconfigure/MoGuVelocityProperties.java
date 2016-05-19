@@ -2,7 +2,6 @@ package com.wz.boot.aston.autoconfigure;
 
 import org.springframework.boot.autoconfigure.template.AbstractTemplateViewResolverProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,10 +19,17 @@ public class MoGuVelocityProperties extends AbstractTemplateViewResolverProperti
 
     public static final String DEFAULT_SUFFIX = ".vm";
 
+    /**
+     * 新增部分:layoutUrl
+     */
     private String layoutUrl;
-
+    /**
+     * 新增部分:layoutKey
+     */
     private String layoutKey;
-
+    /**
+     * 新增部分:screenContentKey
+     */
     private String screenContentKey;
 
     /**
@@ -138,7 +144,7 @@ public class MoGuVelocityProperties extends AbstractTemplateViewResolverProperti
     @Override
     public void applyToViewResolver(Object viewResolver) {
         super.applyToViewResolver(viewResolver);
-        VelocityLayoutViewResolver resolver = (VelocityLayoutViewResolver) viewResolver;
+        MoGuEmbeddedVelocityLayoutViewResolver resolver = (MoGuEmbeddedVelocityLayoutViewResolver) viewResolver;
         resolver.setToolboxConfigLocation(getToolboxConfigLocation());
         resolver.setDateToolAttribute(getDateToolAttribute());
         resolver.setNumberToolAttribute(getNumberToolAttribute());

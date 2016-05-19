@@ -26,5 +26,10 @@ public class DashboardController {
     public Object json() {
         return "success";
     }
+
+    @RequestMapping("save")
+    public void save(){
+
+    }
 }
 

@@ -13,20 +13,21 @@ import org.springframework.util.ClassUtils;
  */
 public class MoGuVelocityTemplateAvailabilityProvider implements TemplateAvailabilityProvider {
 
+
     @Override
-    public boolean isTemplateAvailable(String view, Environment environment,
-                                       ClassLoader classLoader, ResourceLoader resourceLoader) {
+    public boolean isTemplateAvailable(String view,
+                                       Environment environment,
+                                       ClassLoader classLoader,
+                                       ResourceLoader resourceLoader) {
         if (ClassUtils.isPresent("org.apache.velocity.app.VelocityEngine", classLoader)) {
-            PropertyResolver resolver = new RelaxedPropertyResolver(environment,
-                    "spring.velocity.");
+            PropertyResolver resolver = new RelaxedPropertyResolver(environment, "mogu.spring.velocity.");
             String loaderPath = resolver.getProperty("resource-loader-path",
-                    org.springframework.boot.autoconfigure.velocity.VelocityProperties.DEFAULT_RESOURCE_LOADER_PATH);
+                    MoGuVelocityProperties.DEFAULT_RESOURCE_LOADER_PATH);
             String prefix = resolver.getProperty("prefix",
-                    org.springframework.boot.autoconfigure.velocity.VelocityProperties.DEFAULT_PREFIX);
+                    MoGuVelocityProperties.DEFAULT_PREFIX);
             String suffix = resolver.getProperty("suffix",
-                    org.springframework.boot.autoconfigure.velocity.VelocityProperties.DEFAULT_SUFFIX);
-            return resourceLoader.getResource(loaderPath + prefix + view + suffix)
-                    .exists();
+                    MoGuVelocityProperties.DEFAULT_SUFFIX);
+            return resourceLoader.getResource(loaderPath + prefix + view + suffix).exists();
         }
         return false;
     }

@@ -1,4 +1,3 @@
-
 <script src="${rc.contextPath}/assets/js/detect.js"></script>
 <script src="${rc.contextPath}/assets/js/fastclick.js"></script>
 <script src="${rc.contextPath}/assets/js/jquery.slimscroll.js"></script>
@@ -14,6 +13,21 @@
 <script src="${rc.contextPath}/assets/js/jquery.app.js"></script>
 <script>
     var resizefunc = [];
+
+    $(function () {
+        var currURI = '$request.getRequestURI()';
+        var aEle = $(".has_sub a[href='" + currURI + "']")[0];
+        var liEle = $(aEle).parent("li")[0];
+        var ulEl = $(liEle).parent("ul.list-unstyled")[0];
+        if (ulEl) {
+            $(liEle).addClass("active");
+            $(ulEl).css('display', 'block');
+            $(ulEl).siblings("a").addClass("active subdrop");
+        } else {
+            $(aEle).addClass("active")
+        }
+
+    });
 </script>
 </body>
 </html>

@@ -20,5 +20,6 @@
     <script src="${rc.contextPath}/assets/js/modernizr.min.js"></script>
     <script src="${rc.contextPath}/assets/js/jquery.min.js"></script>
     <script src="${rc.contextPath}/assets/js/bootstrap.min.js"></script>
+
 </head>
 <body class="fixed-left">

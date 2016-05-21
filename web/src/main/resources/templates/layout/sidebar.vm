@@ -8,7 +8,7 @@
                 <li class="text-muted menu-title">Dashboard</li>
 
                 <li class="has_sub">
-                    <a href="${rc.contextPath}/" class="waves-effect active">
+                    <a id="dashboard-sidebar" href="${rc.contextPath}/" class="waves-effect">
                         <i class="ti-home"></i><span>系统首页</span>
                     </a>
                 </li>
@@ -19,9 +19,9 @@
                         <span class="label label-info pull-right">3</span><span>系统日志</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/">系统日志</a></li>
-                        <li><a href="${rc.contextPath}/">系统日志</a></li>
-                        <li><a href="${rc.contextPath}/">系统日志</a></li>
+                        <li><a href="${rc.contextPath}/dict">字典管理</a></li>
+                        <li><a href="${rc.contextPath}/dict2">系统日志</a></li>
+                        <li><a href="${rc.contextPath}/dict3">系统日志</a></li>
                     </ul>
                 </li>
 

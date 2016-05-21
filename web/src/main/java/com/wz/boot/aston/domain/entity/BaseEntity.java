@@ -1,9 +1,6 @@
 package com.wz.boot.aston.domain.entity;
 
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.io.Serializable;
 
 /**
@@ -17,33 +14,67 @@ public class BaseEntity implements Serializable {
     /**
      * row id
      */
-    @Setter
-    @Getter
-    protected long id;
+    protected Long id;
 
     /**
      * created time
      */
-    @Setter
-    @Getter
     protected long created;
     /**
      * created time
      */
-    @Setter
-    @Getter
+
     protected long updated;
 
     /**
      * logic deleted,0:normal,1:deleted
      */
-    @Setter
-    @Getter
     protected int isDeleted;
 
-    @Setter
-    @Getter
     protected String extra;
 
+    public long getId() {
+        return id;
+    }
 
+    public BaseEntity setId(long id) {
+        this.id = id;
+        return this;
+    }
+
+    public long getCreated() {
+        return created;
+    }
+
+    public BaseEntity setCreated(long created) {
+        this.created = created;
+        return this;
+    }
+
+    public long getUpdated() {
+        return updated;
+    }
+
+    public BaseEntity setUpdated(long updated) {
+        this.updated = updated;
+        return this;
+    }
+
+    public int getIsDeleted() {
+        return isDeleted;
+    }
+
+    public BaseEntity setIsDeleted(int isDeleted) {
+        this.isDeleted = isDeleted;
+        return this;
+    }
+
+    public String getExtra() {
+        return extra;
+    }
+
+    public BaseEntity setExtra(String extra) {
+        this.extra = extra;
+        return this;
+    }
 }

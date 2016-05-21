@@ -1,6 +1,9 @@
 package com.wz.boot.aston.web.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.wz.boot.aston.domain.entity.BaseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -27,9 +30,16 @@ public class DashboardController {
         return "success";
     }
 
-    @RequestMapping("save")
-    public void save(){
+    @RequestMapping("form")
+    public void form(ModelMap modelMap) {
 
+    }
+
+    @RequestMapping("save")
+    @ResponseBody
+    public Object save(BaseEntity entity) {
+        System.out.println("BaseEntity:"+JSON.toJSONString(entity));
+        return "OK";
     }
 }
 

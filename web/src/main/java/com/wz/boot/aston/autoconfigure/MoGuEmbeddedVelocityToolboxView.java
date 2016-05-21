@@ -4,6 +4,9 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.context.Context;
+import org.apache.velocity.tools.view.ToolboxManager;
+import org.apache.velocity.tools.view.context.ChainedContext;
+import org.apache.velocity.tools.view.servlet.ServletToolboxManager;
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.servlet.view.velocity.VelocityLayoutView;
@@ -21,9 +24,13 @@ import java.util.Map;
 public class MoGuEmbeddedVelocityToolboxView extends VelocityLayoutView {
     @Override
     protected Context createVelocityContext(Map<String, Object> model,
-                                            HttpServletRequest request, HttpServletResponse response) throws Exception {
-        org.apache.velocity.tools.view.context.ChainedContext context = new org.apache.velocity.tools.view.context.ChainedContext(
-                new VelocityContext(model), getVelocityEngine(), request, response,
+                                            HttpServletRequest request,
+                                            HttpServletResponse response) throws Exception {
+        ChainedContext context = new ChainedContext(
+                new VelocityContext(model),
+                getVelocityEngine(),
+                request,
+                response,
                 getServletContext());
         if (getToolboxConfigLocation() != null) {
             setContextToolbox(context);
@@ -33,8 +40,8 @@ public class MoGuEmbeddedVelocityToolboxView extends VelocityLayoutView {
 
     @SuppressWarnings("unchecked")
     private void setContextToolbox(
-            org.apache.velocity.tools.view.context.ChainedContext context) {
-        org.apache.velocity.tools.view.ToolboxManager toolboxManager = org.apache.velocity.tools.view.servlet.ServletToolboxManager
+            ChainedContext context) {
+        ToolboxManager toolboxManager = ServletToolboxManager
                 .getInstance(getToolboxConfigFileAwareServletContext(),
                         getToolboxConfigLocation());
         Map<String, Object> toolboxContext = toolboxManager.getToolbox(context);

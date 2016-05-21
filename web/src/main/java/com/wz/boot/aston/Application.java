@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
  * @author wenzeng
@@ -15,6 +15,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  */
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class})
+@ServletComponentScan
 public class Application extends SpringBootServletInitializer {
 
     @Override

@@ -5,10 +5,10 @@
         <div id="sidebar-menu">
             <ul>
 
-                <li class="text-muted menu-title">选品后台</li>
+                <li class="text-muted menu-title">Dashboard</li>
 
                 <li class="has_sub">
-                    <a href="${rc.contextPath}/#" class="waves-effect active">
+                    <a href="${rc.contextPath}/" class="waves-effect active">
                         <i class="ti-home"></i><span>系统首页</span>
                     </a>
                 </li>
@@ -16,22 +16,22 @@
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect">
                         <i class="ti-paint-bucket"></i>
-                        <span class="label label-info pull-right">3</span><span>规则管理</span>
+                        <span class="label label-info pull-right">3</span><span>系统日志</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">规则列表</a></li>
-                        <li><a href="${rc.contextPath}/#">新增规则</a></li>
-                        <li><a href="${rc.contextPath}/#">规则校验</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
                     </ul>
                 </li>
 
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect">
                         <i class="ti-light-bulb"></i>
-                        <span>指标管理</span>
+                        <span>系统日志</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">指标列表</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
                     </ul>
                 </li>
 
@@ -41,7 +41,7 @@
                         <span>模型管理</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">模型列表</a></li>
+                        <li><a href="${rc.contextPath}/">模型列表</a></li>
                     </ul>
                 </li>
 
@@ -51,7 +51,7 @@
                         <span>数据字典</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">字典管理</a></li>
+                        <li><a href="${rc.contextPath}/">字典管理</a></li>
                     </ul>
                 </li>
 
@@ -63,18 +63,18 @@
                         <span class="label label-info pull-right">2</span><span>系统日志</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">操作日志</a></li>
-                        <li><a href="${rc.contextPath}/#">执行日志</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
+                        <li><a href="${rc.contextPath}/">系统日志</a></li>
                     </ul>
                 </li>
                 <li class="has_sub">
                     <a href="javascript:void(0);" class="waves-effect">
                         <i class="ti-crown"></i>
-                        <span class="label label-info pull-right">2</span><span>选品统计</span>
+                        <span class="label label-info pull-right">2</span><span>日志统计</span>
                     </a>
                     <ul class="list-unstyled">
-                        <li><a href="${rc.contextPath}/#">选品记录</a></li>
-                        <li><a href="${rc.contextPath}/#">选品统计</a></li>
+                        <li><a href="${rc.contextPath}/">日志统计</a></li>
+                        <li><a href="${rc.contextPath}/">日志统计</a></li>
                     </ul>
                 </li>
             </ul>

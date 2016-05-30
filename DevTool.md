@@ -15,6 +15,7 @@
 	Tunnelblick		:vpn
 	Lantern			:vpn
 	Charles			:web debugging proxy
-	
+	SiteSucker              :
+	Transmit2               :ftp
 ####
 	bower,npm,tree,git
